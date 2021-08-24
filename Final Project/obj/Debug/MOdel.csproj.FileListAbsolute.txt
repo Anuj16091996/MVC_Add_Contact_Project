@@ -1,0 +1,5 @@
+C:\Users\isi.751FJW2\Desktop\c sharp\Final Project\Final Project\Final Project\bin\Debug\Final Project.dll
+C:\Users\isi.751FJW2\Desktop\c sharp\Final Project\Final Project\Final Project\bin\Debug\Final Project.pdb
+C:\Users\isi.751FJW2\Desktop\c sharp\Final Project\Final Project\Final Project\obj\Debug\MOdel.csproj.CoreCompileInputs.cache
+C:\Users\isi.751FJW2\Desktop\c sharp\Final Project\Final Project\Final Project\obj\Debug\Final Project.dll
+C:\Users\isi.751FJW2\Desktop\c sharp\Final Project\Final Project\Final Project\obj\Debug\Final Project.pdb

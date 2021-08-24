@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="View_Project.View.Edit"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:View_Project.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <TextBox x:Name="Show_Block"  HorizontalAlignment="Left" 
+                 Height="33" Margin="10,191,0,0" BorderBrush="Snow"
+                 TextWrapping="Wrap" Text="" HorizontalContentAlignment="Center"
+                 VerticalAlignment="Top" Width="492" FontSize="11"      />
+        <Label Content="Enter The First Name of The contact" HorizontalContentAlignment="Center"
+               HorizontalAlignment="Left" VerticalContentAlignment="Center"
+               Height="39" Margin="11,45,0,0" VerticalAlignment="Top" 
+               Width="316" FontSize="18" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.429"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBox x:Name="Edit_Block" HorizontalAlignment="Left" HorizontalContentAlignment="Center"
+                 VerticalContentAlignment="Center"
+                 Height="29" Margin="387,55,0,0" 
+                 TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="115"/>
+        <Button Content="Submit" HorizontalAlignment="Left" Height="32" Margin="251,118,0,0" VerticalAlignment="Top" Width="138" Click="Button_Click"/>
+        <TextBlock TextAlignment="Center" x:Name="NameLabel" HorizontalAlignment="Left" Height="24" Margin="44,229,0,0" TextWrapping="Wrap" Text="First Name" VerticalAlignment="Top" Width="93"/>
+        <TextBlock TextAlignment="Center" x:Name="NameLabel_Copy" HorizontalAlignment="Left" Height="24" Margin="44,258,0,0" TextWrapping="Wrap" Text="Last Name" VerticalAlignment="Top" Width="93"/>
+        <TextBlock TextAlignment="Center" x:Name="NameLabel_Copy1" HorizontalAlignment="Left" Height="24" Margin="44,287,0,0" TextWrapping="Wrap" Text="Phone Number" VerticalAlignment="Top" Width="93" RenderTransformOrigin="0.538,1.533"/>
+        <TextBox x:Name="FirstName" HorizontalAlignment="Left" HorizontalContentAlignment="Center"
+                 VerticalContentAlignment="Center"
+                 Height="22" Margin="193,231,0,0" 
+                 TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="Last_Name" HorizontalAlignment="Left" HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            Height="22" Margin="193,258,0,0" 
+            TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="Phone_Number" HorizontalAlignment="Left" HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            Height="22" Margin="193,285,0,0" 
+            TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="85"/>
+        <Button x:Name="Edit_Btn" Content="Submit" HorizontalAlignment="Left" Height="26" Margin="124,316,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click_1"/>
+    </Grid>
+</UserControl>
